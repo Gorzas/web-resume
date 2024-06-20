@@ -16,12 +16,9 @@
     import { html, render } from 'lit';
     import '../dist/src/web-resume.js';
 
-    const header = 'Hello owc World!';
     render(
       html`
-        <web-resume .header=${header}>
-          some light-dom
-        </web-resume>
+        <web-resume></web-resume>
       `,
       document.querySelector('#demo')
     );
