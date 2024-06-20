@@ -27,7 +27,11 @@ export class WebResume extends LitElement {
 
   render() {
     return html`
-      <aside></aside>
+      <aside>
+        <ul>
+          <li>LinkedIn</li>
+        </ul>
+      </aside>
       <article>
         <header>
           <h1>José David Cano Pérez</h1>
