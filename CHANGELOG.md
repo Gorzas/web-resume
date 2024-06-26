@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Gorzas/web-resume/compare/v1.1.0...v1.1.1) (2024-06-20)
+
+
+### Bug Fixes
+
+* **actions:** use release type Node ([0b2bb5a](https://github.com/Gorzas/web-resume/commit/0b2bb5ac5c4c5ec6140ad5ce78506a0aa2bb0daf))
+
 ## [1.1.0](https://github.com/Gorzas/web-resume/compare/v1.0.0...v1.1.0) (2024-06-20)
 
 
