@@ -23,13 +23,22 @@ export class WebResume extends LitElement {
     header {
       border-bottom: 1px solid #000;
     }
+
+    aside h3 {
+      font-variant:small-caps;
+    }
   `;
 
   render() {
     return html`
       <aside>
+        <h3>Contact</h3>
         <ul>
+          <li>email</li>
           <li>LinkedIn</li>
+          <li>website</li>
+          <li>Github profile</li>
+          <li>Location</li>
         </ul>
       </aside>
       <article>
@@ -37,6 +46,8 @@ export class WebResume extends LitElement {
           <h1>José David Cano Pérez</h1>
           <h4>Frontend Software Engineer</h4>
         </header>
+        <h3>Professional Experience</h3>
+        <h3>Education</h3>
       </article>
     `;
   }
