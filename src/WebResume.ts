@@ -35,6 +35,7 @@ export class WebResume extends LitElement {
       <article>
         <header>
           <h1>José David Cano Pérez</h1>
+          <h4>Frontend Software Engineer</h4>
         </header>
       </article>
     `;
