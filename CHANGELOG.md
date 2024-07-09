@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Gorzas/web-resume/compare/v1.2.0...v1.3.0) (2024-07-09)
+
+
+### Features
+
+* add structure to all the document ([0edabe5](https://github.com/Gorzas/web-resume/commit/0edabe516356c9823e07a065b9eba64c421726dd))
+
 ## [1.2.0](https://github.com/Gorzas/web-resume/compare/v1.1.1...v1.2.0) (2024-06-26)
 
 
