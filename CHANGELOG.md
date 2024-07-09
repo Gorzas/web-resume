@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Gorzas/web-resume/compare/v1.1.1...v1.2.0) (2024-06-26)
+
+
+### Features
+
+* include some parts to create interface of document ([b601645](https://github.com/Gorzas/web-resume/commit/b6016450f63805adbea626fdcf1b2ef5c9161f24))
+
 ## [1.1.1](https://github.com/Gorzas/web-resume/compare/v1.1.0...v1.1.1) (2024-06-20)
 
 
