@@ -49,11 +49,11 @@ export class WebResume extends LitElement {
         <section>
           <h2>Contact</h2>
           <ul>
-            <li>email</li>
-            <li>LinkedIn</li>
-            <li>website</li>
-            <li>Github profile</li>
-            <li>Location</li>
+            <li>📩 <a href="mailto:joseda87@gmail.com">joseda87@gmail.com</a></li>
+            <li>LinkedIn <a href="https://www.linkedin.com/in/jd-cano/">@jd-cano</a></li>
+            <li>🌐 <a href="https://jdcano.com">jdcano.com</a></li>
+            <li>Github profile <a href="https://github.com/Gorzas">@gorzas</a></li>
+            <li>📍 Murcia, Spain</li>
           </ul>
         </section>
         <section>
