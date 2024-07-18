@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Gorzas/web-resume/compare/v1.3.0...v1.4.0) (2024-07-11)
+
+
+### Features
+
+* add contact information ([7a4fed6](https://github.com/Gorzas/web-resume/commit/7a4fed6f4ec3e2438dd273dc653943c802311f8f))
+
 ## [1.3.0](https://github.com/Gorzas/web-resume/compare/v1.2.0...v1.3.0) (2024-07-09)
 
 
