@@ -78,9 +78,16 @@ export class WebResume extends LitElement {
           <p>My own personal description</p>
         </header>
         <h2>Professional Experience</h2>
+        <section>
+          <h3>Company name</h3>
+          <div class="job-position">
+            
+          </div>
+        </section>
         <h2>Education</h2>
         <section>
           <h3>Universidad de Murcia</h3>
+          <p>Bachelors in Information Technology</p>
         </section>
       </article>
     `;
