@@ -13,6 +13,11 @@ export class WebResume extends LitElement {
       max-width:900px;
     }
 
+    a {
+      color:#000;
+      text-decoration:none;
+    }
+
     aside {
       background: #77f277;
       flex: 2;
@@ -60,6 +65,32 @@ export class WebResume extends LitElement {
           <h2>Tech Stack</h2>
           <section>
             <h3>Frontend</h3>
+            <ul>
+              <li>EmberJS</li>
+              <li>HTML5 + CSS3</li>
+              <li>JavaScript</li>
+              <li>Cypress</li>
+              <li>QUnit</li>
+              <li>SASS</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Backend</h3>
+            <ul>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>NodeJS</li>
+              <li>MySQL</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Others</h3>
+            <ul>
+              <li>Jira / Gitlab / Azure</li>
+              <li>Agile (Scrum)</li>
+              <li>TDD</li>
+              <li>git</li>
+            </ul>
           </section>
         </section>
         <section>
@@ -75,19 +106,65 @@ export class WebResume extends LitElement {
           <h1>José David Cano Pérez</h1>
           <h4>Software Engineer</h4>
           <hr>
-          <p>My own personal description</p>
+          <p>Software Engineer with 13 years of experience building user interfaces and with experience in backend development.</p>
         </header>
         <h2>Professional Experience</h2>
         <section>
-          <h3>Company name</h3>
-          <div class="job-position">
-            
-          </div>
+          <header>
+            <h3 class="title">Descartes Kontainers</h3>
+            <div class="location">Remote</div>
+            <div class="position">Senior Frontend Developer</div>
+            <div class="dates">April 2021 - Present</div>
+          </header>
+          <ul class="tasks"></ul>
+        </section>
+        <section>
+          <header>
+            <h3 class="title">Neuromobile - Marketing Activo Inteligente, S.L</h3>
+            <div class="location">Murcia, Spain</div>
+            <div class="position">Lead Frontend Developer</div>
+            <div class="dates">December 2013 - April 2021</div>
+          </header>
+          <ul class="tasks">
+            <li>Lead engineer of a small frontend team, leading the building of web app solutions for different sectors: Real State, Business Intelligence, Leasing, Mall, Retail.</li>
+            <li>Definition of frontend Coding Standards and good practices.</li>
+            <li>Lead and manage a full-stack team using agile methodologies, assigning priorities according to needs of our customers.</li>
+            <li>Frontend development of WebApp solutions.</li>
+          </ul>
+        </section>
+        <section>
+          <header>
+            <h3 class="title">Playroom 360</h3>
+            <div class="location">Murcia, Spain</div>
+            <div class="position">Full Stack Web Developer</div>
+            <div class="dates">October 2012 - December 2013</div>
+          </header>
+          <ul class="tasks">
+            <li>Full-stack development of Facebook apps for companies like Hero, Fini, Plátano de Canarias and Aquaservice.</li>
+            <li>Development of advergaming products with HTML5, working directly with Canvas API.</li>
+            <li>Usage automated testing to build reliable and scalable products with thousands of users per day.</li>
+            <li>Building of responsive layouts with complex designs.</li>
+          </ul>
+        </section>
+        <section>
+          <header>
+            <h3 class="title">OPENRED SOLUCIONES</h3>
+            <div class="location">Murcia, Spain</div>
+            <div class="position">Internship</div>
+            <div class="dates">October 2011 - October 2012</div>
+          </header>
+          <ul class="tasks">
+            <li>Development of websites based in free software (Joomla, Magento, Sakai...), specially development of online shops with Magento.</li>
+          </ul>
         </section>
         <h2>Education</h2>
         <section>
-          <h3>Universidad de Murcia</h3>
-          <p>Bachelors in Information Technology</p>
+          <header>
+            <h3>Universidad de Murcia</h3>
+            <div class="location">Murcia</div>
+            <div class="position">Bachelors in Computer Science</div>
+            <div class="dates">2011</div>
+          </header>
         </section>
       </article>
     `;
