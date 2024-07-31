@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/Gorzas/web-resume/compare/v1.4.0...v1.5.0) (2024-07-31)
+
+
+### Features
+
+* add all the current info from LinkedIn ([a5bdae9](https://github.com/Gorzas/web-resume/commit/a5bdae986330221eb87ba72470098705e04f6267))
+
 ## [1.4.0](https://github.com/Gorzas/web-resume/compare/v1.3.0...v1.4.0) (2024-07-11)
 
 
