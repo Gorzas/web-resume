@@ -10,7 +10,8 @@ export class WebResume extends LitElement {
       display: flex;
       font-family:Helvetica,Arial, sans-serif;
       margin: 0 auto;
-      max-width:900px;
+      width: 21cm;
+      height: 29.7cm;
     }
 
     a {
@@ -21,7 +22,7 @@ export class WebResume extends LitElement {
     aside {
       background: rgb(147, 207, 236);
       flex: 2;
-      padding-left:2rem;
+      padding:0 2rem;
     }
 
     article {
@@ -34,8 +35,15 @@ export class WebResume extends LitElement {
       max-width: 20%;
     }
 
-    aside h3 {
+    h2 {
+      border-bottom:1px gray solid;
+      margin: 1rem 0;
+      padding-bottom: .5rem;
+    }
+
+    h3 {
       font-variant:small-caps;
+      margin:0;
     }
 
     ul {
