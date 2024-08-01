@@ -19,7 +19,7 @@ export class WebResume extends LitElement {
     }
 
     aside {
-      background: #77f277;
+      background: rgb(147, 207, 236);
       flex: 2;
       padding-left:2rem;
     }
