@@ -13,9 +13,10 @@
   },
   "scripts": {
     "analyze": "cem analyze --litelement",
-    "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"web-dev-server\"",
-    "build": "tsc && npm run analyze -- --exclude dist",
-    "prepublish": "tsc && npm run analyze -- --exclude dist"
+    "start": "tsc && npm run copy-images && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"web-dev-server\"",
+    "build": "tsc && npm run copy-images && npm run analyze -- --exclude dist",
+    "prepublish": "tsc && npm run copy-images && npm run analyze -- --exclude dist",
+    "copy-images": "mkdir -p dist/src/assets && cp src/assets/**.svg dist/src/assets/"
   },
   "dependencies": {
     "lit": "^3.1.4"
