@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/Gorzas/web-resume/compare/v1.5.0...v1.6.0) (2024-08-05)
+
+
+### Features
+
+* include svg files for Github and Linkedin ([04cd5ad](https://github.com/Gorzas/web-resume/commit/04cd5ad1d7ebcb5d47be8334bb0a397d274962ed))
+
 ## [1.5.0](https://github.com/Gorzas/web-resume/compare/v1.4.0...v1.5.0) (2024-07-31)
 
 
