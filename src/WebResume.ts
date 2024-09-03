@@ -21,13 +21,11 @@ export class WebResume extends LitElement {
 
     aside {
       background: rgb(147, 207, 236);
-      flex: 2;
       padding:0 2rem;
     }
 
     article {
-      flex: 4;
-      padding: 0 2rem;
+      padding:0 2rem;
     }
 
     hr {
@@ -59,6 +57,11 @@ export class WebResume extends LitElement {
 
     li {
       line-height: 1.2;
+    }
+
+    .location {
+      font-size: .8rem;
+      font-style:italic;
     }
   `;
 
