@@ -42,6 +42,7 @@ export class WebResume extends LitElement {
     }
 
     h3 {
+      font-size: 1rem;
       font-variant:small-caps;
       margin:0;
     }
