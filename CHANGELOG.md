@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/Gorzas/web-resume/compare/v1.6.1...v1.6.2) (2024-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lit to v3.2.1 ([2241f4a](https://github.com/Gorzas/web-resume/commit/2241f4ab5b67d930faff66480a4612544ab5ee8b))
+
 ## [1.6.1](https://github.com/Gorzas/web-resume/compare/v1.6.0...v1.6.1) (2024-08-05)
 
 
