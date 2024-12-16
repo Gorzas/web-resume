@@ -58,10 +58,24 @@ export class WebResume extends LitElement {
     li {
       line-height: 1.2;
     }
+    
+    .dates {
+      text-align: right;
+    }
 
     .location {
       font-size: .8rem;
       font-style:italic;
+    }
+
+    .position-header {
+      /* TODO use subcomponent: avoid code repeated and better CSS specifity */
+      display: grid;
+      grid-template-columns: repeat(2, 50%);
+
+      .title, .location {
+        grid-column: 1 / 3;
+      }
     }
   `;
 
@@ -127,7 +141,7 @@ export class WebResume extends LitElement {
         </header>
         <h2>Professional Experience</h2>
         <section>
-          <header>
+          <header class="position-header">
             <h3 class="title">Descartes Kontainers</h3>
             <div class="location">Remote</div>
             <div class="position">Senior Frontend Developer</div>
@@ -136,7 +150,7 @@ export class WebResume extends LitElement {
           <ul class="tasks"></ul>
         </section>
         <section>
-          <header>
+          <header class="position-header">
             <h3 class="title">Neuromobile - Marketing Activo Inteligente, S.L</h3>
             <div class="location">Murcia, Spain</div>
             <div class="position">Lead Frontend Developer</div>
@@ -150,7 +164,7 @@ export class WebResume extends LitElement {
           </ul>
         </section>
         <section>
-          <header>
+          <header class="position-header">
             <h3 class="title">Playroom 360</h3>
             <div class="location">Murcia, Spain</div>
             <div class="position">Full Stack Web Developer</div>
@@ -164,7 +178,7 @@ export class WebResume extends LitElement {
           </ul>
         </section>
         <section>
-          <header>
+          <header class="position-header">
             <h3 class="title">OPENRED SOLUCIONES</h3>
             <div class="location">Murcia, Spain</div>
             <div class="position">Internship</div>
@@ -176,7 +190,7 @@ export class WebResume extends LitElement {
         </section>
         <h2>Education</h2>
         <section>
-          <header>
+          <header class="position-header">
             <h3>Universidad de Murcia</h3>
             <div class="location">Murcia</div>
             <div class="position">Bachelors in Computer Science</div>
