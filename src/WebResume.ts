@@ -63,18 +63,58 @@ export class WebResume extends LitElement {
       text-align: right;
     }
 
-    .location {
-      font-size: .8rem;
-      font-style:italic;
-    }
-
     .position-header {
       /* TODO use subcomponent: avoid code repeated and better CSS specifity */
       display: grid;
       grid-template-columns: repeat(2, 50%);
 
+      .location {
+        font-size: .8rem;
+        font-style:italic;
+      }
+
       .title, .location {
         grid-column: 1 / 3;
+      }
+    }
+
+    .contact li {
+      white-space: nowrap;
+    }
+
+    .contact-info {
+      font-size: .9rem;
+      padding-left: 10px;
+    }
+
+    .icon {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      font-style: normal;
+      height: 1em; 
+      vertical-align: middle;
+      width: 1em; 
+
+      &.github {
+        background-image: url("../dist/src/assets/github.svg");
+      }
+
+      &.linkedin {
+        background-image: url("../dist/src/assets/linkedin.svg");
+      }
+
+      &.email:before {
+        content: '📩';
+      }
+
+      &.web:before {
+        content: '🌐';
+      }
+
+      &.location:before {
+        content: '📍';
       }
     }
   `;
@@ -84,12 +124,12 @@ export class WebResume extends LitElement {
       <aside>
         <section>
           <h2>Contact</h2>
-          <ul>
-            <li>📩 <a href="mailto:joseda87@gmail.com">joseda87@gmail.com</a></li>
-            <li><img class="icon" src="../dist/src/assets/linkedin.svg" alt="Linkedin logo">  <a href="https://www.linkedin.com/in/jd-cano/">@jd-cano</a></li>
-            <li>🌐 <a href="https://jdcano.com">jdcano.com</a></li>
-            <li><img class="icon" src="../dist/src/assets/github.svg" alt="Github logo"> <a href="https://github.com/Gorzas">@gorzas</a></li>
-            <li>📍 Murcia, Spain</li>
+          <ul class="contact">
+            <li><i class="icon email"></i><a class="contact-info" href="mailto:joseda87@gmail.com">joseda87@gmail.com</a></li>
+            <li><i class="icon linkedin"></i><a class="contact-info" href="https://www.linkedin.com/in/jd-cano/">@jd-cano</a></li>
+            <li><i class="icon web"></i><a class="contact-info" href="https://jdcano.com">jdcano.com</a></li>
+            <li><i class="icon github"></i><a class="contact-info" href="https://github.com/Gorzas">@gorzas</a></li>
+            <li><i class="icon location"></i><span class="contact-info">Murcia, Spain</span></li>
           </ul>
         </section>
         <section>
