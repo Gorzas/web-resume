@@ -51,12 +51,16 @@ export class WebResume extends LitElement {
     }
 
     ul {
-      list-style: none;
       padding:0;
     }
 
     li {
       line-height: 1.2;
+    }
+
+    .skills,
+    .contact {
+      list-style-type: none;
     }
     
     .dates {
@@ -136,7 +140,7 @@ export class WebResume extends LitElement {
           <h2>Tech Stack</h2>
           <section>
             <h3>Frontend</h3>
-            <ul>
+            <ul class="skills">
               <li>EmberJS</li>
               <li>HTML5 + CSS3</li>
               <li>JavaScript</li>
@@ -147,7 +151,7 @@ export class WebResume extends LitElement {
           </section>
           <section>
             <h3>Backend</h3>
-            <ul>
+            <ul class="skills">
               <li>PHP</li>
               <li>Laravel</li>
               <li>NodeJS</li>
@@ -156,7 +160,7 @@ export class WebResume extends LitElement {
           </section>
           <section>
             <h3>Others</h3>
-            <ul>
+            <ul class="skills">
               <li>Jira / Gitlab / Azure</li>
               <li>Agile (Scrum)</li>
               <li>TDD</li>
@@ -166,7 +170,7 @@ export class WebResume extends LitElement {
         </section>
         <section>
           <h2>Languages</h2>
-          <ul>
+          <ul class="skills">
             <li>Spanish (Native)</li>
             <li>English (B2)</li>
           </ul>
