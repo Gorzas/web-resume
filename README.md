@@ -18,8 +18,6 @@ npm i web-resume
 <web-resume></web-resume>
 ```
 
-
-
 ## Tooling configs
 
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
