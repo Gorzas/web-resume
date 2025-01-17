@@ -3,7 +3,7 @@
   "description": "Webcomponent web-resume following open-wc recommendations",
   "license": "MIT",
   "author": "web-resume",
-  "version": "1.6.2",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/src/index.js",
   "module": "dist/src/index.js",
