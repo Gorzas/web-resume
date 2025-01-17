@@ -191,7 +191,12 @@ export class WebResume extends LitElement {
             <div class="position">Senior Frontend Developer</div>
             <div class="dates">April 2021 - Present</div>
           </header>
-          <ul class="tasks"></ul>
+          <ul class="tasks">
+            <li>Developed a SaaS platform for customer experience logistics.</li>
+            <li>Upgraded the codebase from Ember v3.6 to v5.8, ensuring compatibility and performance improvements.</li>
+            <li>Implemented TDD practices and used Cypress for end-to-end testing.</li>
+            <li>Collaborated closely with QA, backend, and UI/UX teams to align project goals and deliverables.</li>
+          </ul>
         </section>
         <section>
           <header class="position-header">
