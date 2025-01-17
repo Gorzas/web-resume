@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Gorzas/web-resume/compare/v1.6.2...v2.0.0) (2025-01-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* add minor change to force release 2.0
+
+### Features
+
+* add minor change to force release 2.0 ([ed44217](https://github.com/Gorzas/web-resume/commit/ed442172db017020172d2846b05a0a93fb51ff88))
+
 ## [1.6.2](https://github.com/Gorzas/web-resume/compare/v1.6.1...v1.6.2) (2024-10-09)
 
 
