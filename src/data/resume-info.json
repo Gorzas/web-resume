@@ -1,0 +1,93 @@
+{
+  "name": "José David Cano Pérez",
+  "title": "Software Engineer",
+  "summary": "Software Engineer with 13 years of experience building user interfaces and with experience in backend development.",
+  "contact": {
+    "email": "joseda87@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jd-cano/",
+    "web": "https://jdcano.com",
+    "github": "https://github.com/Gorzas",
+    "location": "Murcia, Spain"
+  },
+  "tech_stack": {
+    "frontend": [
+      "EmberJS",
+      "HTML5 + CSS3",
+      "JavaScript",
+      "Cypress",
+      "QUnit",
+      "SASS"
+    ],
+    "backend": [
+      "PHP",
+      "Laravel",
+      "NodeJS",
+      "MySQL"
+    ],
+    "others": [
+      "Jira / Gitlab / Azure",
+      "Agile (Scrum)",
+      "TDD",
+      "git"
+    ]
+  },
+  "languages": [
+    { "name": "Spanish", "level": "Native" },
+    { "name": "English", "level": "B2" }
+  ],
+  "professional_experience": [
+    {
+      "company": "Descartes Kontainers",
+      "location": "Remote",
+      "position": "Senior Frontend Developer",
+      "dates": "April 2021 - Present",
+      "tasks": [
+        "Developed a SaaS platform for customer experience logistics.",
+        "Upgraded the codebase from Ember v3.6 to v5.8, ensuring compatibility and performance improvements.",
+        "Implemented TDD practices and used Cypress for end-to-end testing.",
+        "Collaborated closely with QA, backend, and UI/UX teams to align project goals and deliverables."
+      ]
+    },
+    {
+      "company": "Neuromobile - Marketing Activo Inteligente, S.L",
+      "location": "Murcia, Spain",
+      "position": "Lead Frontend Developer",
+      "dates": "December 2013 - April 2021",
+      "tasks": [
+        "Lead engineer of a small frontend team, leading the building of web app solutions for different sectors: Real State, Business Intelligence, Leasing, Mall, Retail.",
+        "Definition of frontend Coding Standards and good practices.",
+        "Lead and manage a full-stack team using agile methodologies, assigning priorities according to needs of our customers.",
+        "Frontend development of WebApp solutions."
+      ]
+    },
+    {
+      "company": "Playroom 360",
+      "location": "Murcia, Spain",
+      "position": "Full Stack Web Developer",
+      "dates": "October 2012 - December 2013",
+      "tasks": [
+        "Full-stack development of Facebook apps for companies like Hero, Fini, Plátano de Canarias and Aquaservice.",
+        "Development of advergaming products with HTML5, working directly with Canvas API.",
+        "Usage automated testing to build reliable and scalable products with thousands of users per day.",
+        "Building of responsive layouts with complex designs."
+      ]
+    },
+    {
+      "company": "OPENRED SOLUCIONES",
+      "location": "Murcia, Spain",
+      "position": "Internship",
+      "dates": "October 2011 - October 2012",
+      "tasks": [
+        "Development of websites based in free software (Joomla, Magento, Sakai...), specially development of online shops with Magento."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Murcia",
+      "location": "Murcia",
+      "degree": "Bachelors in Computer Science",
+      "year": "2011"
+    }
+  ]
+}
