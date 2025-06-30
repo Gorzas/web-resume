@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/Gorzas/web-resume/compare/v2.0.1...v2.1.0) (2025-06-26)
+
+
+### Features
+
+* add Harvard style resume ([3516491](https://github.com/Gorzas/web-resume/commit/35164913aeb7d3c0616c60591b3134884f69a6ff))
+
 ## [2.0.1](https://github.com/Gorzas/web-resume/compare/v2.0.0...v2.0.1) (2025-04-12)
 
 
