@@ -26,7 +26,7 @@
     "@web/dev-server": "^0.4.5",
     "concurrently": "^9.0.0",
     "tslib": "^2.6.3",
-    "typescript": "^5.4.5"
+    "typescript": "^6.0.0"
   },
   "customElements": "custom-elements.json"
 }
